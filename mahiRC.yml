@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Replication controller
 metadata:
-  name: mahiRC
+  name: "mahiRC"
 spec:
   replicas: 2
   selector:
