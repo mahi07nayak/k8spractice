@@ -6,7 +6,7 @@ spec:
   replicas: 2
   selector:
     app: mahajavaapp
-  template: 
+  template:
     metadata:
       labels:
         app: mahajavaapp
