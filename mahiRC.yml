@@ -8,8 +8,8 @@ spec:
     app: mahijavaapp
   template: 
     metadata:
-    labels:
-      app: mahijavaapp
+      labels:
+       app: mahijavaapp
     spec:
      containers:
      - name: mahi-java-container
