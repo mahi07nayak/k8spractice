@@ -15,4 +15,4 @@ spec:
       - name: nginx-container
         image: nginx
         ports:
-        - containerport: 8080
+        - containerPort: 8080
