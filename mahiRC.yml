@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ReplicationController
 metadata:
     name: nginx-rc
-spec:
+Spec:
   replicas: 2
   selector:
     app: nginxapp
@@ -10,7 +10,7 @@ spec:
     metadata:
       labels:
         app: nginxapp
-    spec:
+    Spec:
      containers:
      - name: nginx-container
        image: nginx
