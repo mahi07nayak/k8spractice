@@ -5,13 +5,13 @@ metadata:
   labels:
     app: myjavaapp
 spec:
-  selector:
-    app: myjavaapp
   type: NodePort
   ports:
     - port: 8080
       nodeport: 30001
       protocol: TCP
-    
+  selector:
+    app: myjavaapp
+
 
  
